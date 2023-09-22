@@ -11,6 +11,8 @@ function logsToCSV(logs) {
   ]
    .map(e => e.join(",")) 
    .join("\n");
+   
+   return csvString
 }
 
 function makeLog(logType) {
