@@ -1,5 +1,3 @@
-console.log("ciao")
-
 function logsToCSV(logs) {
   const csvString = [
     [
