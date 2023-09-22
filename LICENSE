@@ -5,3 +5,5 @@ The text of the license can be found at this link: https://creativecommons.org/l
 The fonts in the folder fonts/ are under licensed under the Open Font License by their original commissioners:
 
 - Noto Serif ⇒ Google
+
+The script js/file-download.js is part of the js-file-download-library, and is licensed under the MIT license by Kenneth Jiang https://github.com/kennethjiang/js-file-download

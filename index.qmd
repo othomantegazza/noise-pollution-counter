@@ -9,6 +9,7 @@ const logs = []
 </script>
 
 <script src="js/log-date.js"></script>
+<script src="js/file-download.js"></script>
 
 
 
