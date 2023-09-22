@@ -5,27 +5,24 @@ editor_options:
 ---
 
 <script>
-const logs = {
-  source: [],
-  stamps: [],
-}
+const logs = []
 </script>
 
 <script src="js/log-date.js"></script>
 
 
 
-<button type="button" onclick="logDate()" class="btn btn-primary">Automobile</button> 
+<button type="button" onclick="makeLog('Automobile')" class="btn btn-primary">Automobile</button> 
 
 <br>
 
-<button type="button" onclick="logDate()" class="btn btn-primary">Trasporto Pesante</button> 
+<button type="button" onclick="makeLog('Trasporto Pesante')" class="btn btn-primary">Trasporto Pesante</button> 
 
 <br>
 
-<button type="button" onclick="logDate()" class="btn btn-primary">Moto</button> 
+<button type="button" onclick="makeLog('Moto')" class="btn btn-primary">Moto</button> 
 
 <br>
 
-<button type="button" onclick="logDate()" class="btn btn-primary">Bambini Molesti</button> 
+<button type="button" onclick="makeLog('Bambini Molesti')" class="btn btn-primary">Bambini Molesti</button> 
 

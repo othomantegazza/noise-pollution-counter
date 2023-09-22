@@ -1,5 +1,8 @@
 console.log("ciao")
 
-function logDate() {
-  console.log(Date.now().toString())
+function makeLog(logType) {
+  const newLog = {fonte: logType, istante: Date.now()}
+  console.log(newLog)
+  logs.push(newLog)
+  return newLog
 }
