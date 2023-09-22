@@ -15,6 +15,12 @@ format:
   html:
     theme: style/custom.scss
     toc: true
+    include-in-header: 
+      text: >
+        <meta property="og:title" content="Noise Log">
+        <meta property="og:description" content="Segna le fonti dei rumori che senti, scarica i dati.">
+        <meta property="og:site-name" content="A Citizen Science Experiment">
+        <meta property="og:locale" content="en_EU">
 
 knitr:
   opts_chunk: 
