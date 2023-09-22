@@ -1,14 +1,31 @@
 ---
-title: "Start Your Quarto Project Here"
-author: "Yourself"
-date: today
+title: ""
 editor_options: 
   chunk_output_type: console
 ---
 
-# My Analysis
+<script>
+const logs = {
+  source: [],
+  stamps: [],
+}
+</script>
 
-```{r}
-print("Hello There!")
-```
+<script src="js/log-date.js"></script>
+
+
+
+<button type="button" onclick="logDate()" class="btn btn-primary">Automobile</button> 
+
+<br>
+
+<button type="button" onclick="logDate()" class="btn btn-primary">Trasporto Pesante</button> 
+
+<br>
+
+<button type="button" onclick="logDate()" class="btn btn-primary">Moto</button> 
+
+<br>
+
+<button type="button" onclick="logDate()" class="btn btn-primary">Bambini Molesti</button> 
 
