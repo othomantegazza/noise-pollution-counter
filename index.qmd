@@ -26,3 +26,6 @@ const logs = []
 
 <button type="button" onclick="makeLog('Bambini Molesti')" class="btn btn-primary">Bambini Molesti</button> 
 
+<br>
+
+<pre id="logsPre"></pre>

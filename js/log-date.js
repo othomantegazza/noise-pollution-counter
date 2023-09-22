@@ -18,6 +18,6 @@ function logsToCSV(logs) {
 function makeLog(logType) {
   const newLog = {fonte: logType, istante: Date.now()}
   logs.push(newLog)
-  logsToCSV(logs)
+  document.getElementById('logsPre').innerHTML = logsToCSV(logs)
   return newLog
 }
