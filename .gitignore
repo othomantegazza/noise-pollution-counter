@@ -4,6 +4,9 @@ docs
 # intermediate files
 *_files
 
+# secrets
+.env
+
 # Mac stuff
 **.DS_Store
 
