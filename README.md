@@ -1,14 +1,10 @@
-# Content
-
-A Quarto project starter for the workshop in [Data Visualization for Scientists](https://github.com/othomantegazza/dataviz-for-scientists-slides/).
-
 # Deploy Locally
 
 To deploy locally:
 
 1. Install Quarto: https://quarto.org/docs/get-started/
 
-2. Open `quarto-example.Rproj` in Rstudio.
+2. Open `noise-pollution-counter.Rproj` in Rstudio.
 
 3. At the R console, install all R packages with:
 
